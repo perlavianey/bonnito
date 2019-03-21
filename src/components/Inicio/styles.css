@@ -1,0 +1,173 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    overflow-x: hidden;
+}
+.InicioDisplay .parallax {
+    background-image: url("../../assets/images/mainPic.png");
+    min-height: 300px;
+    background-attachment: unset;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 700px;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+
+}
+
+.InicioDisplay .menuContainer{
+    z-index: 1;
+    margin: 0!important;
+    border-bottom: none;
+    text-align: right;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px lightgray;
+
+}
+
+.InicioDisplay #menu .ant-col-24{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    /*padding: 10px 0!important;*/
+    /*height: 80px;*/
+    text-align: right;
+}
+#menu .ant-menu-horizontal{
+    line-height: 55px!important;
+}
+#menu .menuItem{
+    height: 70px!important;
+    vertical-align: middle;
+    line-height: 65px;
+}
+.InicioDisplay .fixed-nav {
+    border-bottom: none;
+    margin: 0!important;
+    position: fixed!important;
+    top:0;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px lightgray;
+    z-index: 1;
+    width: 100%;
+
+}
+
+.InicioDisplay .menu{
+    background-color: transparent;
+    color: gray;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-right: 50px;
+}
+.InicioDisplay .ant-menu-item-active{
+    color:gray!important;
+    border-color: gray!important;
+    background-color: #EBEBEB!important;
+}
+.InicioDisplay .ant-menu-item-selected{
+    color:gray!important;
+    border-color: gray!important;
+}
+
+.InicioDisplay .logo{
+    position: absolute;
+    top:6px;
+    left: 50px;
+    width:250px;
+}
+
+.InicioDisplay .title{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 50px 0 0 0;
+}
+
+.InicioDisplay .history{
+
+}
+
+.InicioDisplay .historyDescription{
+    margin:10px auto auto auto;
+    text-align: justify;
+    width:40%;
+    padding: 30px 0;
+    font-size: 1rem;
+}
+
+.InicioDisplay .about{
+    background-color: #EBEBEB;
+}
+
+.InicioDisplay .aboutTitle{
+    color: grey;
+    padding: 0 25px 0 33px;
+    font-weight: 700;
+}
+
+.InicioDisplay .linea, .lineaDerecha{
+    opacity: 0.1;
+}
+
+.InicioDisplay .lineaDerecha{
+    transform: rotate(180deg);
+}
+
+.InicioDisplay .productsList{
+    margin-top: 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.InicioDisplay .productCard{
+    margin:1% 30px 30px 30px!important;
+    text-align: center;
+    width:20vw !important;
+    min-height: 400px !important;
+    border:2px solid rgba(0, 0, 0, 0.473) !important;
+
+}
+.InicioDisplay .productCard .productImage{}
+
+.ant-card-meta-title {
+    text-align: center;
+    white-space: normal !important;
+    text-align: center !important;
+    min-height: 43px !important;
+    max-height: 43px !important;
+}
+
+.ant-card-head{
+    min-height: 80px !important;
+    max-height: 80px !important;
+    border-radius: 1px !important;
+    background-color: rgba(126, 126, 126, 0.85) !important;
+    color:white !important;
+}
+
+.ant-card-head-title{
+    white-space: normal !important;
+    margin:0 !important;
+    display: block !important;
+    font-weight: bold !important;
+}
+
+.footer{
+    background-color: gray;
+    font-weight: bold;
+    padding: 50px 0;
+    height: 100px;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+}
