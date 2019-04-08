@@ -1,16 +1,18 @@
 import React from 'react';
-import { Row, Col, Menu,Card} from 'antd';
+import { Row, Col, Menu} from 'antd';
 import './styles.css'
-const { Meta } = Card;
+import {Link} from 'react-router-dom'
 
-const InicioDisplay = ({scroll,top,products,goToId}) =>{
+const InicioDisplay = ({categories,goToId}) =>{
 
     return(
         <div className='InicioDisplay'>
-            <div className="parallax"/>
-            <Row id='menu' gutter={16} className={scroll > top ? "fixed-nav" : "menuContainer"}>
-                <Col span={24}>
+
+            <Row id='menu' gutter={16} className="fixed-nav menuContainer">
+                <Col span={8}>
                     <img src={require('../../../src/assets/images/logo.png')} alt='logo' className='logo'/>
+                </Col>
+                <Col span={16} className='colMenu' >
                     <Menu mode="horizontal" className='menu'>
                         <Menu.Item key="aboutUs" className='menuItem' onClick={goToId}>
                             <i className="fas fa-home"></i> Acerca de Bonni-to
@@ -27,16 +29,16 @@ const InicioDisplay = ({scroll,top,products,goToId}) =>{
                     </Menu>
                 </Col>
             </Row>
+            <div className="parallax"/>
             <section id='about' className='about'>
                 <Row className='title'>
-                    <Col span={24}>
-                        <img src={require('../../../src/assets/images/line2.png')} alt='line' className='linea'/>
-                        <span className='aboutTitle'>Acerca de Bonni-to</span>
-                        <img src={require('../../../src/assets/images/line2.png')} alt='line' className='lineaDerecha'/>
+                    <Col span={5}>
+                        <div className='divider'>
+                            <img src={require('../../../src/assets/images/patron-01.png')} alt='triangles' className=''/>
+                        </div>
                     </Col>
-                </Row>
-                <Row className='history'>
-                    <Col>
+                    <Col span={14}>
+                        <span className='aboutTitle'>Acerca de Bonni-to</span><br/>
                         <p className='historyDescription'>
                             <b>Bonni-To diseño mx </b> es una marca mexicana que busca fomentar la lectura con sus separadores originales. <br/><br/>
                             Están basados en temas de actualidad y nostalgia. Ya sea que sean de películas, series, libros o caricaturas siempre hay uno para quien guste de la lectura. <br/><br/>
@@ -44,30 +46,53 @@ const InicioDisplay = ({scroll,top,products,goToId}) =>{
                             Además de los separadores buscamos también desarrollar objetos decorativos que sean objetos de diseño que hagan de tu hogar un lugar bonito y agradable.<br/>
                         </p>
                     </Col>
+                    <Col span={5}>
+                        <div className='divider'>
+                            <img src={require('../../../src/assets/images/patron-01.png')} alt='triangles' className=''/>
+                        </div>
+                    </Col>
                 </Row>
             </section>
 
-            <section id='products' className='products'>
+            <section id='products' className='products ss-style-doublediagonal'>
                 <Row className='title'>
-                    <Col>
-                        <img src={require('../../../src/assets/images/line2.png')} alt='line' className='linea'/>
+                    <Col span={7}>
+                        <div className='divider'/>
+                    </Col>
+                    <Col span={10}>
                         <span className='aboutTitle'>Productos</span>
-                        <img src={require('../../../src/assets/images/line2.png')} alt='line' className='lineaDerecha'/>
+                    </Col>
+                    <Col span={7}>
+                        <div className='divider'/>
                     </Col>
                 </Row>
                 <Row className='productsList'>
-                    {products.map((p, key)=>{
-                        let src = 'https://res.cloudinary.com/perlavianey/image/upload/v1553136831/bonni-to/'.concat(p.imageURL);
-                        return <Card className="productCard"
-                                  key={key}
-                                  hoverable
-                                  title={p.name}
-                                  bordered='true'
-                                  cover={<img alt="productPic" className='productImage' src={src}/>}>
-                                <Meta title={p.name}/>
-                        </Card>
+                    <div className="grid">
+                    {categories.map((category, key)=>{
+                    return <figure className="effect-ruby" key={key}>
+                        <img src={require(`../../../src/assets/images/categorias${category.imagePath}`)} alt='CategoryImg' className='categoryImage'/>
+                        <figcaption>
+                            <h2><span>{category.name}</span></h2>
+                            <p>{category.description}</p>
+                            <Link to="#">View more</Link>
+                        </figcaption>
+                    </figure>
                     })}
+                    </div>
                 </Row>
+            </section>
+            <section id='events' className='events'>
+                <Row className='title'>
+                    <Col span={7}>
+                        <div className='divider'/>
+                    </Col>
+                    <Col span={10}>
+                        <span className='aboutTitle'>Eventos</span>
+                    </Col>
+                    <Col span={7}>
+                        <div className='divider'/>
+                    </Col>
+                </Row><br/><br/><br/>
             </section>
         </div>
     )
