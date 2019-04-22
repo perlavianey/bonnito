@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import {withRouter} from "react-router-dom";
 import Routes from './Routes'
-import './index.css'
 import './App.css';
 
 class App extends Component {

@@ -3,7 +3,7 @@ import { Row, Col, Menu} from 'antd';
 import './styles.css'
 import {Link} from 'react-router-dom'
 
-const InicioDisplay = ({categories,goToId}) =>{
+const InicioDisplay = ({categories=[],goToId}) =>{
 
     return(
         <div className='InicioDisplay'>
@@ -69,14 +69,13 @@ const InicioDisplay = ({categories,goToId}) =>{
                 <Row className='productsList'>
                     <div className="grid">
                     {categories.map((category, key)=>{
-                    return <figure className="effect-ruby" key={key}>
+                    return <Link to={`/category/${category.id}`} key={key}><figure className="effect-ruby">
                         <img src={require(`../../../src/assets/images/categorias${category.imagePath}`)} alt='CategoryImg' className='categoryImage'/>
                         <figcaption>
                             <h2><span>{category.name}</span></h2>
                             <p>{category.description}</p>
-                            <Link to="#">View more</Link>
                         </figcaption>
-                    </figure>
+                    </figure></Link>
                     })}
                     </div>
                 </Row>
