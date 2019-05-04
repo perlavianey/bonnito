@@ -1,0 +1,53 @@
+.AdminCategoryDisplay{
+  padding-top: 40px;
+  min-height: calc(100% - 150px);
+  overflow: auto;
+  position: relative;
+
+  p{
+    font-size: 1.8rem;
+    text-align: center;
+    font-weight: bolder;
+    color:$blue;
+  }
+  .buttonAddContainer{
+    text-align: right;
+    max-width: 500px;
+    min-width: 300px;
+    margin: auto;
+    .buttonAdd{
+      font-size: 12px;
+      padding: 0 8px;
+      height: 28px;
+      background-color: $blue;
+      border-color: $blue;
+      .anticon{
+        font-size: 11px;
+      }
+      span{
+        margin-left: 5px;
+      }
+    }
+  }
+  .categoriesTable{
+    margin: 10px auto 10px auto;
+    max-width: 500px;
+    min-width: 300px;
+    .headerTable{
+      background-color: gray;
+      padding: 10px 15px;
+      font-weight: bold;
+      color:white;
+    }
+    .category{
+      border-bottom: 0.3px solid lightgrey;
+      padding: 8px 0;
+      .ant-col-18{
+        padding-left: 12px;
+      }
+      .fas{
+        margin: 0 20px 0 0;
+      }
+    }
+  }
+}

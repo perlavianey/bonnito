@@ -1,5 +1,5 @@
 import React from 'react';
-import {Button,Modal,Form,Input} from "antd";
+import {Button,Modal,Row,Col} from "antd";
 import CategoryFormContainer from "./components/CategoryFormContainer";
 
 const AdminCategoryDisplay = ({categories=[],
@@ -17,15 +17,22 @@ const AdminCategoryDisplay = ({categories=[],
 
     return(
         <div className='AdminCategoryDisplay'>
-            <Button type="primary" icon="plus" onClick={onAddCategory}>Agregar categoría</Button>
+            <p>Lista de Categorías</p>
+            <div className='buttonAddContainer'>
+                <Button className='buttonAdd' shape='round' type="primary" icon="plus" onClick={onAddCategory}>Agregar</Button>
+            </div>
+
             <section>
-                <div className="categories">
+                <div className="categoriesTable">
+                    <Row className='headerTable'>
+                        <Col span ={18}>Nombre</Col>
+                        <Col span={6}>Acciones</Col>
+                    </Row>
                     {categories.map((category, key)=>{
-                        return <div key={key}>
-                                <span>{category.name}</span>
-                                <i className="fas fa-pen" onClick={()=>onEditCategory(category)}/>
-                                <i className="fas fa-trash" onClick={()=>onDeleteCategory(category)}/>
-                            </div>
+                        return <Row className='category' key={key}>
+                                <Col span ={18}>{category.name}</Col>
+                                <Col span={6}><i className="fas fa-pen" onClick={()=>onEditCategory(category)}/><i className="fas fa-trash" onClick={()=>onDeleteCategory(category)}/></Col>
+                            </Row>
                     })}
                 </div>
             </section>
@@ -45,11 +52,17 @@ const AdminCategoryDisplay = ({categories=[],
 
             {/*Modal para Eliminar categoría*/}
             {deletingCategory&&<Modal
+                className='ModalCategory'
                 title='Eliminar categoría'
                 visible={true}
+                width={350}
+                okText='Eliminar'
+                cancelText='Cancelar'
+                okButtonProps={{shape:'round'}}
+                cancelButtonProps={{shape:'round'}}
                 onOk={handleDeleteCategory}
                 onCancel={onCancelDeleteCategory}>
-                <p>¿Realmente deseas borrar la categoría?</p>
+                <p>¿Realmente deseas borrar la categoría <b>{deletingCategory.name}</b>?</p>
                 </Modal>}
         </div>
     )

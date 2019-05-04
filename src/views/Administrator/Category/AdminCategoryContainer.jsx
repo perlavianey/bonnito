@@ -49,22 +49,20 @@ class AdminCategoryContainer extends Component{
     render() {
         const {categories,addingCategory,editingCategory,deletingCategory}=this.state;
         return (
-            <div>
-                <AdminCategoryDisplay
-                    categories={categories}
-                    onAddCategory={this.addCategory}
-                    onEditCategory={(category)=>this.editCategory(category)}
-                    onDeleteCategory={(category)=>this.handleDeleteCategory(category)}
-                    addingCategory = {addingCategory}
-                    editingCategory={editingCategory}
-                    deletingCategory={deletingCategory}
-                    handleCancelEditing={this.closeEditingCategory}
-                    handleCancelAdding={this.closeAddCategory}
-                    handleDeleteCategory={(category)=>this.deleteCategory(category)}
-                    onCancelDeleteCategory={this.closeDeleteCategory}
-                    onInputChange={this.onInputChange}
-                />
-            </div>
+            <AdminCategoryDisplay
+                categories={categories}
+                onAddCategory={this.addCategory}
+                onEditCategory={(category)=>this.editCategory(category)}
+                onDeleteCategory={(category)=>this.handleDeleteCategory(category)}
+                addingCategory = {addingCategory}
+                editingCategory={editingCategory}
+                deletingCategory={deletingCategory}
+                handleCancelEditing={this.closeEditingCategory}
+                handleCancelAdding={this.closeAddCategory}
+                handleDeleteCategory={(category)=>this.deleteCategory(category)}
+                onCancelDeleteCategory={this.closeDeleteCategory}
+                onInputChange={this.onInputChange}
+            />
         );
     }
 }

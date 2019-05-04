@@ -1,0 +1,39 @@
+.AdminNavbarDisplay{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  box-shadow: 0px 5px 10px 0px lightgray;
+  .logoContainer{
+    max-height: 50px;
+    .logo{
+      position: relative;
+      max-height: 100%;
+      margin-left: 10px;
+    }
+  }
+  .menuContainer{
+    .menu{
+      background-color: transparent;
+      color: gray;
+      border: none;
+      font-weight: bold;
+      font-size: 1.1rem;
+
+      .menuItem{
+        height: 42px!important;
+        vertical-align: middle;
+        line-height: 38px;
+      }
+      .ant-menu-item-active{
+        color:gray!important;
+        border-color: gray!important;
+        background-color: #EBEBEB!important;
+      }
+      .ant-menu-item-selected{
+        color:gray!important;
+        border-color: gray!important;
+      }
+    }
+  }
+}

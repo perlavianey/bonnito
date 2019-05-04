@@ -1,18 +1,22 @@
 import React, { Component } from 'react';
-import {withRouter} from "react-router-dom";
-import Routes from './Routes'
+import {Switch,Router,Route,Redirect} from "react-router-dom";
+import AuthLayout from "./layouts/Auth";
+import AppLayout from "./layouts/App";
 import './App.css';
+import {createBrowserHistory} from 'history';
 
-class App extends Component {
-  render() {
+const hist = createBrowserHistory();
+
+const App = () => {
     return (
-      <>
-        <nav className='navBar'/>
-        <section className='content'><Routes/></section>
-        <footer className="footer"><a href="https://twitter.com/perlavianey?lang=es"><i className="fab fa-instagram"/>&nbsp;Síguenos en Instagram</a></footer>
-      </>
+        <Router history={hist}>
+            <Switch>
+                <Route path="/auth" render={props => <AuthLayout {...props} />} />
+                <Route path="/app" render={props => <AppLayout  {...props} />} />
+                <Redirect from="/" to="/app/inicio" />
+            </Switch>
+        </Router>
     );
-  }
 }
 
-export default withRouter(App);
+export default App;

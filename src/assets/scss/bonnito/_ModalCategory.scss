@@ -1,0 +1,26 @@
+.ModalCategory{
+  text-align: center;
+  .ant-modal-header{
+    background-color: #F0F0F0;;
+    .ant-modal-title{
+      color: gray;
+      font-weight: bold;
+      text-align: center;
+    }
+  }
+  .ant-form{
+    .ant-row{
+      margin-bottom: 5px;
+      .ant-form-item-label{
+        padding-bottom: 3px;
+      }
+    }
+  }
+  .ant-btn{
+    font-size: 12px;
+  }
+  .ant-btn-primary{
+    background-color: $blue;
+    border-color: $blue;
+  }
+}
