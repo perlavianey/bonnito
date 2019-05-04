@@ -1,9 +1,9 @@
 import React from 'react'
 import {Route,Switch,Redirect} from 'react-router-dom'
-import InicioContainer from './components/User/Inicio/InicioContainer'
-import CategoryContainer from './components/User/Category/CategoryContainer'
-import Administrator from './components/Administrator'
-import AdminCategoryContainer from './components/Administrator/Category/AdminCategoryContainer'
+import InicioContainer from './views/User/Inicio/InicioContainer'
+import CategoryContainer from './views/User/Category/CategoryContainer'
+import Administrator from './views/Administrator'
+import AdminCategoryContainer from './views/Administrator/Category/AdminCategoryContainer'
 
 const Routes = () => {
     return(

@@ -6,7 +6,6 @@ const InicioDisplay = ({categories=[],goToId}) =>{
 
     return(
         <div className='InicioDisplay'>
-
             <Row id='menu' gutter={16} className="fixed-nav menuContainer">
                 <Col span={8}>
                     <img src={require('../../../../src/assets/images/logo.png')} alt='logo' className='logo'/>

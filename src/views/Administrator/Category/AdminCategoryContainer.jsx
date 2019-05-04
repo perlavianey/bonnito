@@ -27,30 +27,41 @@ class AdminCategoryContainer extends Component{
         });
     }
 
-    addCategory = () => this.setState({addingCategory:true})
+    addCategory = () => this.setState({addingCategory:true});
 
-    editCategory = (category) => this.setState({editingCategory:category})
+    editCategory = (category) => this.setState({editingCategory:category});
 
-    closeAddCategory = () => this.setState({addingCategory:false})
+    deleteCategory = () =>{
+        const categoriesRef = firebase.database().ref(`/category/${this.state.deletingCategory.id}`);
+        categoriesRef.remove().then(()=>this.closeDeleteCategory())
+    };
 
-    closeEditingCategory = () => this.setState({editingCategory:false})
+    handleDeleteCategory = (category) => this.setState({deletingCategory:category});
 
-    onInputChange = (e) => {
-        this.setState({form:{...this.state.form,[e.target.name]:e.target.value}})
-    }
+    closeAddCategory = () => this.setState({addingCategory:false});
+
+    closeEditingCategory = () => this.setState({editingCategory:false});
+
+    closeDeleteCategory = () => this.setState({deletingCategory:false});
+
+    onInputChange = (e) => this.setState({form:{...this.state.form,[e.target.name]:e.target.value}});
 
     render() {
-        const {categories,addingCategory,editingCategory}=this.state;
+        const {categories,addingCategory,editingCategory,deletingCategory}=this.state;
         return (
             <div>
                 <AdminCategoryDisplay
                     categories={categories}
                     onAddCategory={this.addCategory}
                     onEditCategory={(category)=>this.editCategory(category)}
+                    onDeleteCategory={(category)=>this.handleDeleteCategory(category)}
                     addingCategory = {addingCategory}
                     editingCategory={editingCategory}
+                    deletingCategory={deletingCategory}
                     handleCancelEditing={this.closeEditingCategory}
                     handleCancelAdding={this.closeAddCategory}
+                    handleDeleteCategory={(category)=>this.deleteCategory(category)}
+                    onCancelDeleteCategory={this.closeDeleteCategory}
                     onInputChange={this.onInputChange}
                 />
             </div>
