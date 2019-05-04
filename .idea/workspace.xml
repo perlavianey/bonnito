@@ -1,20 +1,231 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7bd8843f-a50f-4b70-b53e-9dd0b989cb42" name="Default Changelist" comment="Inicio page according to client specification.">
-      <change afterPath="$PROJECT_DIR$/.env" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/firebase.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="7bd8843f-a50f-4b70-b53e-9dd0b989cb42" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/images/1 2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/10.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/11.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/12.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/13.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/14.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/15.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/9.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0050.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0051.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0060.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0061.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0062.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0069.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0070.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0071.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0072.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0073.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0074.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0075.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0076.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0081.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0083.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0084.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0085.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0091.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0099.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0100.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0101.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0102.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0126.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0127.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0129.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0155.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0156.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0157.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0169.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0170.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0213.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0214.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0215.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0216.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0230.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0232.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0239.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0242.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0243.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0245.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0248.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0252.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0255.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0256.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0258.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0266.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0268.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0270.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0271.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0275.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0276.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0277.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_0278.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_3923.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_3932.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_5165.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_5166.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_5167.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_5677.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_5678.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_5681.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0052.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0053.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0054.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0056.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0058.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0064.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E0066.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3931.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3936.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3937.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3940.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3941.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3943.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3945.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/IMG_E3946.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/anime/IMG_0179.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/anime/IMG_1160.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/anime/IMG_E3936.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_0069.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_0073.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_0074.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_0101.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_4010.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_8425.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/caricaturas/IMG_E0053.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0051.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0075.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0170.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0239.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0242.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0245.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0255.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0256.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0258.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0266.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0271.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0281.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_0298.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_1813.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_5042.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_E0064.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/frases/IMG_E0067.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/heroes_villanos/IMG_0178.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/heroes_villanos/IMG_0225.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/heroes_villanos/IMG_0228.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/heroes_villanos/IMG_0231.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/heroes_villanos/IMG_5789.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0050.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0070.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0072.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0076.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0084.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0085.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0091.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0100.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0129.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0155.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0156.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0214.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0275.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0278.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0305.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_0564.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_1652.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_3923.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_4988.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_5165.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_5166.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_5167.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_7769.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_8806.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_E0058.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/IMG_E0068.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/libros/unnamed (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/musica/IMG_0061.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/musica/IMG_0284.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/musica/IMG_E3946.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_0062.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_0243.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_0268.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_1258.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_3694.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_5531.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_6793.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_6875.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/mx/IMG_8104.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0081.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0083.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0169.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0213.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0230.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0261.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_0277.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_3940.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_3941.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_E0052.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_E0056.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/peliculas/IMG_E0057.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0060.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0099.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0126.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0127.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0216.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0276.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0287.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0288.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0289.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_0290.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/potterhead/IMG_3924.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/retro/IMG_0278.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/retro/IMG_0282.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/retro/IMG_0283.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/retro/IMG_0296.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/retro/IMG_0297.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/categorias/videojuegos/IMG_0294.JPG" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/descripcion.docx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/fotos-02.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/line.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/line2-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/line2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mainPic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/mainPicture.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/patron-01.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/patron-01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/patron-01_h.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/patron.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/unnamed (1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/unnamed.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/bonnito/_AdminCategory.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/bonnito/_Footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scss/bonnito/_Inicio.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryDisplay.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormContainer.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormDisplay.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Administrator/index.jsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Routes.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Category/CategoryContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/CategoryContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Category/CategoryDisplay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Category/CategoryDisplay.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inicio/InicioContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inicio/InicioContainer.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inicio/InicioDisplay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inicio/InicioDisplay.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/components/Inicio/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Inicio/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/firebase.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category/CategoryContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Category/CategoryContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category/CategoryDisplay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Category/CategoryDisplay.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Category/styles.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/scss/bonnito.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inicio/InicioContainer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Inicio/InicioContainer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inicio/InicioDisplay.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/User/Inicio/InicioDisplay.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/components/Inicio/styles.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -30,26 +241,35 @@
     <splitter split-orientation="horizontal" split-proportion="0.5">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Category/CategoryContainer.jsx">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/components/User/Inicio/InicioDisplay.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="300">
-                  <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+                <state relative-caret-position="141">
+                  <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
                   <folding>
-                    <element signature="e#0#39#0" expanded="true" />
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryDisplay.jsx">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="75">
+                  <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/Routes.js">
+            <entry file="file://$PROJECT_DIR$/src/assets/scss/bonnito/_Inicio.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="150">
-                  <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-                  <folding>
-                    <element signature="e#0#25#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="345">
+                  <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
                 </state>
               </provider>
             </entry>
@@ -57,8 +277,20 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/index.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret column="8" selection-start-column="8" selection-end-column="8" />
+                <state relative-caret-position="90">
+                  <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+                  <folding>
+                    <element signature="e#0#26#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/assets/scss/bonnito.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="300">
+                  <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -68,31 +300,10 @@
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
           <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Inicio/styles.css">
+            <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryContainer.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state>
-                  <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Inicio/InicioDisplay.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="1035">
-                  <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/Inicio/InicioContainer.jsx">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="538">
-                  <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+                <state relative-caret-position="215">
+                  <caret line="36" selection-start-line="36" selection-end-line="36" />
                   <folding>
                     <element signature="e#0#39#0" expanded="true" />
                   </folding>
@@ -101,12 +312,12 @@
             </entry>
           </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/components/Category/CategoryDisplay.jsx">
+            <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormContainer.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="45">
-                  <caret line="3" selection-start-line="3" selection-end-line="3" />
+                <state relative-caret-position="408">
+                  <caret line="39" selection-start-line="39" selection-end-line="39" />
                   <folding>
-                    <element signature="e#0#26#0" expanded="true" />
+                    <element signature="e#0#39#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -144,29 +355,38 @@
         <option value="$PROJECT_DIR$/src/components/Firebase/index.js" />
         <option value="$PROJECT_DIR$/src/components/Firebase/firebase.js" />
         <option value="$PROJECT_DIR$/public/index.html" />
-        <option value="$PROJECT_DIR$/src/Routes.js" />
         <option value="$PROJECT_DIR$/src/components/Inicio/styles.css" />
-        <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/components/Inicio/InicioDisplay.jsx" />
         <option value="$PROJECT_DIR$/.env" />
         <option value="$PROJECT_DIR$/src/firebase.js" />
         <option value="$PROJECT_DIR$/src/components/Category/CategoryDisplay.jsx" />
         <option value="$PROJECT_DIR$/src/components/Inicio/InicioContainer.jsx" />
         <option value="$PROJECT_DIR$/src/components/Category/CategoryContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/Routes.js" />
+        <option value="$PROJECT_DIR$/src/components/Administrator/index.jsx" />
+        <option value="$PROJECT_DIR$/src/components/User/Category/CategoryDisplay.jsx" />
+        <option value="$PROJECT_DIR$/src/index.js" />
+        <option value="$PROJECT_DIR$/src/assets/scss/bonnito/_Footer.jsx" />
+        <option value="$PROJECT_DIR$/src/assets/scss/bonnito.scss" />
+        <option value="$PROJECT_DIR$/src/assets/scss/bonnito/_Inicio.scss" />
+        <option value="$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormDisplay.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormContainer.jsx" />
+        <option value="$PROJECT_DIR$/src/components/User/Inicio/InicioDisplay.jsx" />
+        <option value="$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryDisplay.jsx" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+  <component name="ProjectFrameBounds">
     <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="817" />
+    <option name="height" value="819" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,26 +408,13 @@
               <item name="bonnyto" type="b2602c69:ProjectViewProjectNode" />
               <item name="bonnyto" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bonnyto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bonnyto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Category" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="bonnyto" type="b2602c69:ProjectViewProjectNode" />
-              <item name="bonnyto" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="Inicio" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -223,9 +430,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/components/User" />
       <recent name="$PROJECT_DIR$/src/components/Firebase" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public" />
       <recent name="$PROJECT_DIR$/src/assets/images" />
     </key>
   </component>
@@ -260,7 +469,12 @@
       <workItem from="1554561347246" duration="12200000" />
       <workItem from="1555451125028" duration="105000" />
       <workItem from="1555630970037" duration="9851000" />
-      <workItem from="1555953916833" duration="3787000" />
+      <workItem from="1555953916833" duration="3954000" />
+      <workItem from="1555970887870" duration="3076000" />
+      <workItem from="1556207628142" duration="5509000" />
+      <workItem from="1556319609325" duration="892000" />
+      <workItem from="1556548500331" duration="36000" />
+      <workItem from="1556916681890" duration="6403000" />
     </task>
     <task id="LOCAL-00001" summary="Update of the website">
       <created>1553211118004</created>
@@ -276,11 +490,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554734518384</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="First conection to Firebase to get the products list shown in Start page">
+      <created>1555967993193</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555967993193</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65777000" />
+    <option name="totallyTimeSpent" value="81860000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -292,10 +513,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
+    <frame x="0" y="23" width="1440" height="819" extended-state="0" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931225" weight="0.16165951" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49793673" visible="true" weight="0.16809729" />
+      <window_info id="Structure" order="1" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
+      <window_info id="npm" order="2" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
+      <window_info id="Favorites" order="3" sideWeight="0.5020633" side_tool="true" weight="0.16809729" />
+      <window_info active="true" anchor="bottom" id="Messages" visible="true" weight="0.3287483" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3287483" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827586" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827586" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.27647868" />
+      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.16165951" />
       <window_info id="Structure" order="1" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
       <window_info id="npm" order="2" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
       <window_info id="Favorites" order="3" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
@@ -311,29 +555,6 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.24216868" />
-      <window_info anchor="bottom" id="TypeScript" order="12" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Database" order="3" />
-    </layout>
-    <layout-to-restore>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49931225" visible="true" weight="0.16165951" />
-      <window_info id="Structure" order="1" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
-      <window_info id="npm" order="2" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
-      <window_info id="Favorites" order="3" sideWeight="0.5006878" side_tool="true" weight="0.2532189" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32965517" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32827586" />
-      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32827586" />
-      <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.24216868" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -390,7 +611,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Update of the website" />
     <MESSAGE value="Inicio page according to client specification." />
-    <option name="LAST_COMMIT_MESSAGE" value="Inicio page according to client specification." />
+    <MESSAGE value="First conection to Firebase to get the products list shown in Start page" />
+    <MESSAGE value="It's posible to add and edit categories :)" />
+    <option name="LAST_COMMIT_MESSAGE" value="It's posible to add and edit categories :)" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/assets/images/patron-01_h.png">
@@ -436,16 +659,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Category/styles.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="18" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/Firebase/context.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Firebase/index.js" />
     <entry file="file://$PROJECT_DIR$/src/components/Firebase/firebase.js" />
@@ -463,33 +676,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="74" selection-start-line="10" selection-start-column="74" selection-end-line="10" selection-end-column="74" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Inicio/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="192" column="15" selection-start-line="192" selection-start-column="15" selection-end-line="192" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/firebase.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
@@ -504,23 +690,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Inicio/InicioDisplay.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1035">
-          <caret line="69" column="42" selection-start-line="69" selection-start-column="42" selection-end-line="69" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
@@ -528,32 +697,149 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Inicio/InicioContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/src/components/User/Category/CategoryContainer.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="538">
-          <caret line="43" column="56" selection-start-line="43" selection-start-column="56" selection-end-line="43" selection-end-column="56" />
+        <state relative-caret-position="493">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Category/CategoryDisplay.jsx">
+    <entry file="file://$PROJECT_DIR$/src/App.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        <state relative-caret-position="180">
+          <caret line="12" column="9" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/Inicio/InicioContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="547">
+          <caret line="62" column="45" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="45" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/Category/styles.scss" />
+    <entry file="file://$PROJECT_DIR$/src/components/User/Category/CategoryDisplay.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Administrator/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="29" selection-start-line="8" selection-start-column="43" selection-end-line="8" selection-end-column="53" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/Category/CategoryContainer.jsx">
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/bonnito/_Footer.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="5" selection-start-column="5" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/Inicio/styles_S.css" />
+    <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
-          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <caret line="20" column="19" selection-start-line="20" selection-start-column="19" selection-end-line="20" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/bonnito/_AdminCategory.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/bonnito.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/scss/bonnito/_Inicio.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="44" column="43" selection-start-line="44" selection-start-column="43" selection-end-line="44" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="48" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormDisplay.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="21" selection-start-column="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/components/CategoryFormContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="39" selection-start-line="39" selection-end-line="39" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/User/Inicio/InicioDisplay.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="70" column="27" lean-forward="true" selection-start-line="70" selection-start-column="27" selection-end-line="70" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/Administrator/Category/AdminCategoryDisplay.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>

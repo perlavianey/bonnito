@@ -5,6 +5,7 @@ import App from './App';
 import {BrowserRouter} from 'react-router-dom'
 import * as serviceWorker from './serviceWorker';
 import 'antd/dist/antd.css';
+import "./assets/scss/bonnito.scss"
 
 const WithRouter = () => <BrowserRouter><App/></BrowserRouter>
 

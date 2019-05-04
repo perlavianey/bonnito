@@ -1,0 +1,328 @@
+.InicioDisplay{
+  .parallax {
+    background-image: url("./../images/mainPic.png");
+    min-height: 300px;
+    background-attachment: unset;
+    background-position: center;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-height: 700px;
+    display: flex;
+    z-index: 2;
+    justify-content: center;
+
+  }
+  .menuContainer{
+    z-index: 1;
+    margin: 0!important;
+    border-bottom: none;
+    text-align: right;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px lightgray;
+
+  }
+  #menu .ant-col-24{
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: right;
+  }
+  #menu .ant-menu-horizontal{
+    line-height: 45px!important;
+  }
+  #menu .menuItem{
+    height: 42px!important;
+    vertical-align: middle;
+    line-height: 38px;
+  }
+  .fixed-nav {
+    border-bottom: none;
+    margin: 0!important;
+    position: fixed!important;
+    top:0;
+    background-color: white;
+    box-shadow: 0px 5px 10px 0px lightgray;
+    z-index: 100!important;
+    width: 100%;
+
+  }
+  .colMenu{
+    text-align: end;
+  }
+  .menu{
+    background-color: transparent;
+    color: gray;
+    border: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding-right: 50px;
+  }
+  .ant-menu-item-active{
+    color:gray!important;
+    border-color: gray!important;
+    background-color: #EBEBEB!important;
+  }
+  .ant-menu-item-selected{
+    color:gray!important;
+    border-color: gray!important;
+  }
+
+  .logo{
+    position: absolute;
+    left: 50px;
+    width:180px;
+  }
+
+   .title{
+    text-align: center;
+    font-size: 2.5rem;
+    padding: 50px 0 0 0;
+  }
+
+  .divider{
+    margin-top: 30px;
+    border-top: 4px solid gray;
+    opacity:0.3;
+  }
+
+   .divider img{
+    width:100%;
+    text-align: center;
+  }
+
+  .historyDescription{
+    margin: 10px auto auto auto;
+    text-align: justify;
+    width: 70%;
+    padding: 7% 0;
+    font-size: 1rem;
+  }
+
+  .about{
+    background-color: #dcdcdc6b;
+  }
+
+  .aboutTitle{
+    color: grey;
+    font-weight: 700;
+    text-align: center;
+  }
+
+  .linea, .lineaDerecha{
+    opacity: 0.1;
+  }
+
+  .lineaDerecha{
+    transform: rotate(180deg);
+  }
+
+  #products{
+    position: relative;
+    z-index: 1;
+    background: #ffffffe6;
+  }
+
+  .productsList{
+    margin-top: 5%;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .productCard{
+    margin:1% 30px 30px 30px!important;
+    text-align: center;
+    width:20vw !important;
+    min-height: 400px !important;
+    border:2px solid rgba(0, 0, 0, 0.473) !important;
+
+  }
+  .productCard .productImage{}
+
+  .ant-card-meta-title {
+    text-align: center;
+    white-space: normal !important;
+    text-align: center !important;
+    min-height: 43px !important;
+    max-height: 43px !important;
+  }
+
+  .ant-card-head{
+    min-height: 80px !important;
+    max-height: 80px !important;
+    border-radius: 1px !important;
+    background-color: rgba(126, 126, 126, 0.85) !important;
+    color:white !important;
+  }
+
+  .ant-card-head-title{
+    white-space: normal !important;
+    margin:0 !important;
+    display: block !important;
+    font-weight: bold !important;
+  }
+
+  .grid {
+    overflow: hidden;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+  }
+
+  .grid a{
+    color:black;
+  }
+
+  .grid a:hover{
+    color:black;
+  }
+
+  /* Common style */
+  .grid figure {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    overflow: hidden;
+    margin:0 0 -0.5em 0;
+    width: 25%;
+    border:1.3px solid;
+    height: 400px;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+  }
+
+  .grid figure img {
+    position: relative;
+    display: block;
+    min-height: 100%;
+    opacity: 0.8;
+  }
+
+  .grid figure figcaption {
+    padding: 2em;
+    color: #fff;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+
+  .grid figure figcaption::before,
+  .grid figure figcaption::after {
+    pointer-events: none;
+  }
+
+  .grid figure figcaption,
+  .grid figure a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* Anchor will cover the whole item by default */
+  /* For some effects it will show as a button */
+  .grid figure a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+  }
+
+  .grid figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+  }
+
+  .grid figure h2 span {
+    font-weight: 800;
+    text-transform: uppercase;
+  }
+
+  .grid figure h2,
+  .grid figure p {
+    margin: 0;
+  }
+
+  .grid figure p {
+    letter-spacing: 1px;
+    font-size: 15px;
+  }
+
+  figure.effect-ruby {
+    background-color: #17819c;
+  }
+
+  figure.effect-ruby img {
+    opacity: 0.7;
+    width: 100%;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+  }
+
+  figure.effect-ruby:hover img {
+    opacity: 0.5;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  figure.effect-ruby h2 {
+    margin-top: 20%;
+    color:white;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0);
+    transform: translate3d(0,20px,0);
+  }
+
+  figure.effect-ruby p {
+    margin: 1em 0 0;
+    padding: 2.5em;
+    border: 1px solid #fff;
+    opacity: 0;
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+    -webkit-transform: translate3d(0,20px,0) scale(1.1);
+    transform: translate3d(0,20px,0) scale(1.1);
+  }
+
+  figure.effect-ruby:hover h2 {
+    -webkit-transform: translate3d(0,0,0);
+    transform: translate3d(0,0,0);
+  }
+
+  figure.effect-ruby:hover p {
+    opacity: 1;
+    -webkit-transform: translate3d(0,0,0) scale(1);
+    transform: translate3d(0,0,0) scale(1);
+  }
+  #events{
+    position: relative;
+    z-index: 1;
+    background: #dcdcdc6b;
+  }
+
+  @media screen and (max-width: 69.5em) {
+    .grid figure {
+      width: 33.333%;
+    }
+
+    .grid figure figcaption {
+      font-size: 90%;
+    }
+  }
+
+
+  @media screen and (max-width: 41.5em) {
+
+    .grid figure {
+      width: 50%;
+    }
+  }
+}

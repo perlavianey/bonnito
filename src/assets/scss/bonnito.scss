@@ -1,0 +1,21 @@
+@font-face {
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+*{ font-family: Quicksand; }
+
+html,body{
+  overflow-x: hidden;
+}
+
+#toast-container{
+  right: 0;
+  .toast{
+    opacity: 1;
+  }
+}
+
+@import "bonnito/_Inicio";
+@import "bonnito/_AdminCategory";
+@import "bonnito/_Footer";
