@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/bonnito/precache-manifest.569875373dba854539f3360df5ee071f.js"
+  "/bonnito/precache-manifest.1753b6a30f3f1a4e193851dae5bf7a29.js"
 );
 
 workbox.clientsClaim();
